@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgba(91, 208, 45, 0.752);
+}
+.progress{
+    background-color: white;
+    border-radius: 20px;
+    height: 30px;
+    width: 300px;
+}
+.progress_done{
+    background:  linear-gradient(to left, #f287f2, #4f4f4f);
+    width: 0px;
+    box-shadow: 0 3px 3px -5px #f287f2, 0px 2px 5px  #f287f2;
+    height: 100%;
+    opacity: 0;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 2s ease;
+}
